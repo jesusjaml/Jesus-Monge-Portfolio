@@ -1,0 +1,89 @@
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url(/assets/css/header-layout.css);
+@import url(/assets/css/reusable-section.css);
+@import url(/assets/css/button.css);
+@import url(/assets/css/navigator.css);
+@import url(/assets/css/menu-action.css);
+@import url(/assets/css/home=section.css);
+@import url(/assets/css/about=section.css);
+@import url(/assets/css/skills=section.css);
+@import url(/assets/css/works=section.css);
+@import url(/assets/css/contact=section.css);
+@import url(/assets/css/footer.css);
+@import url(/assets/css/tablet-media-queries.css);
+@import url(/assets/css/laptop-media-queries.css);
+/*===== VARIABLES CSS =====*/
+:root {
+    /* 1 REM = 16PX */
+    --header-height: 4.8rem;
+    --font-semi: 600;
+}
+
+/*===== COLORS =====*/
+:root {
+    --first-color: #4070F4;
+    --second-color: #0E2431;
+}
+
+/*===== FONTS AND TYPOGRAOHY =====*/
+:root{
+    --body-font: 'Poppins', sans-serif;
+    --big-font-size: 3.2rem;
+    --h2-font-size: 2rem;
+    --normal-font-size: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    :root{
+        --big-font-size: 5.6rem;
+        --h2-font-size: 3.2rem;
+        --normal-font-size: 1.6rem;
+    }
+}
+
+/*===== MARGENES =====*/
+:root{
+    --mb-1: 0.8rem;
+    --mb-2: 1.6rem;
+    --mb-3: 2.4rem;
+    --mb-4: 3.2rem;
+    --mb-5: 4rem;
+    --mb-6: 4.8rem;
+}
+
+/*===== z index =====*/
+:root{
+    --z-back: -10;
+    --z-normal: 1;
+    --z-tooltip: 10;
+    --z-fixed: 100;
+}
+
+/*===== BASE =====*/
+*,::before,::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body {
+    margin: var(--header-height) 0 0 0;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    color: var(--second-color);
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}

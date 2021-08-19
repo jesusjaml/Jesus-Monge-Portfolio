@@ -1,0 +1,13 @@
+/*===== BUTTON =====*/
+.button {
+    display: inline-block;
+    background-color: var(--first-color);
+    color: #fff;
+    padding: 1.2rem 4rem;
+    font: var(--body-font);
+    border-radius: 0.8rem;
+}
+
+.button:hover {
+    box-shadow: 0 10px 36px rgba(0,0,0,.15);
+}
